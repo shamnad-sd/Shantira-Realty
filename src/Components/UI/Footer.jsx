@@ -7,12 +7,12 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#063138] text-white py-17">
-      <div className="max-w-7xl mx-auto px-6">
+    <footer className="section-color text-white py-17 px-4 md:px-15">
+      <div className="mx-auto px-6">
         {/* Top section */}
-        <div className="grid grid-cols-1 md:grid-cols-6  gap-10 border-b border-[#D4A574]/40 pb-10">
+        <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-6   gap-10 border-b border-[#D4A574]/40 pb-10">
           {/* Logo / Brand */}
-          <div className="md:col-span-2">
+          <div className="md:col-span-1 lg:col-span-2">
             {/* Replace with your Image component */}
             <div className="mb-4">
               <Images
@@ -20,6 +20,7 @@ const Footer = () => {
                 alt='nav logo'
                 width={140}
                 height={70}
+                placeholder={true}
                 priority={true}
               />
             </div>

@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const CtaForm = () => {
   return (
-    <section className="bg-[#2A6F7E] py-16">
+    <section className="py-16">
       <div className="max-w-7xl mx-auto px-6">
         <div className="bg-[#11363D] rounded-[30px] overflow-hidden flex flex-col lg:flex-row">
           {/* Left image + text */}
@@ -16,6 +16,7 @@ const CtaForm = () => {
               height={600}
               quality={90}
               priority={true}
+              placeholder={true}
               className="w-full h-full object-cover"
             />
 

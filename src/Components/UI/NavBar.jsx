@@ -15,6 +15,7 @@ const NavBar = () => {
                 alt='nav logo'
                 width={100}
                 height={50}
+                placeholder={true}
                 priority={true}
               />
             </div>
