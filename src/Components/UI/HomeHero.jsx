@@ -55,7 +55,7 @@ const HomeHero = () => {
             swiper.params.navigation.prevEl = prevRef.current;
             swiper.params.navigation.nextEl = nextRef.current;
           }}
-          className="h-full"
+          className="h-full hero-swiper"
         >
 
           {slides.map((slide) => (
@@ -107,20 +107,20 @@ const HomeHero = () => {
         </Swiper>
       </div>
       <style jsx global>{`
- 
-  .swiper-pagination-bullet {
+  .hero-swiper .swiper-pagination-bullet {
     padding-bottom: 5px;
     background: black;
     opacity: 0.5;
   }
 
-  .swiper-pagination-bullet-active {
+  .hero-swiper .swiper-pagination-bullet-active {
     opacity: 1;
-    padding: 0px 35px 0px 35px;
+    padding: 0px 35px;
     border-radius: 10px;
     background: #356DA4;
   }
 `}</style>
+
 
     </>
   );
