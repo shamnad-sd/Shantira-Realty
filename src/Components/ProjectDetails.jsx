@@ -31,8 +31,8 @@ const ProjectDetails = ({ project }) => {
       <div className="mt-16 relative z-10 px-6 md:px-15 ">
         <section className=" py-10 px-4 md:px-10">
         <div className="max-w-3xl mx-auto">
-            <h2 className='text-center mb-2 apollo-heading text-white text-'>Enquiry</h2>
-          <p className="text-center text-white font-extralight mb-6">
+            <h2 className='text-center mb-1 apollo-heading text-white text-[28px]'>Enquiry</h2>
+          <p className="text-center text-white font-extralight mb-6 text-[19px]">
             Wish to get call back from our team? Fill your details.
           </p>
 
