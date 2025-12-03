@@ -23,9 +23,9 @@
 
 // Nav items
 export  const navItems = [
-  { label: 'Home', href: '#home' },
+  { label: 'Home', href: '/' },
   { label: 'About Us', href: '#about' },
-  { label: 'Projects', href: '#projects' },
+  { label: 'Projects', href: '/projects' },
   { label: 'Blogs', href: '#blogs' },
   { label: 'Contact Us', href: '#contact' },
 ];
@@ -119,5 +119,32 @@ export const testimonials = [
     text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
     avatar: "/HomeImg/testimonials.png",
     rating: 5,
+  },
+];
+
+export const blogs = [
+  {
+    id: 1,
+    category: "Customer Experience",
+    title: "Lorem ipsum dolor consectetur adipiscing elit, sed diam nonummy",
+    image: "/projectImg/project1.jpg",
+  },
+  {
+    id: 2,
+    category: "Customer Experience",
+    title: "Lorem ipsum dolor consectetur adipiscing elit, sed diam nonummy",
+    image: "/projectImg/project1.jpg",
+  },
+  {
+    id: 3,
+    category: "Customer Experience",
+    title: "Lorem ipsum dolor consectetur adipiscing elit, sed diam nonummy",
+    image: "/projectImg/project1.jpg",
+  },
+  {
+    id: 4,
+    category: "Customer Experience",
+    title: "Lorem ipsum dolor consectetur adipiscing elit, sed diam nonummy",
+    image: "/projectImg/project1.jpg",
   },
 ];

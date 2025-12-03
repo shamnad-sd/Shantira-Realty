@@ -27,12 +27,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      {/* <head>
         <link
           href="https://fonts.cdnfonts.com/css/apollo"
           rel="stylesheet"
         />
-      </head>
+      </head> */}
       <body className={`${geistSans.variable} ${geistMono.variable} ${archivo.variable} antialiased`}>
         <NavBar/>
         {children}

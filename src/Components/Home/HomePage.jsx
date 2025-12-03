@@ -4,6 +4,7 @@ import HomeAbout from './HomeAbout'
 import HomeServices from './HomeServices'
 import HomeProjects from './HomeProjects'
 import HomeTestimonials from './HomeTestimonials'
+import HomeBlog from './HomeBlog'
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <HomeServices/>
       <HomeProjects/>
       <HomeTestimonials/>
+      <HomeBlog/>
     </div>
   )
 }
