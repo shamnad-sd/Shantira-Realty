@@ -46,23 +46,23 @@ const Projects = () => {
                         />
 
                         {/* Text + USPs */}
-                        <div className="absolute inset-0 px-6 md:px-15 pt-8 pb-6 grid grid-cols-12 gap-6">
+                        <div className="absolute inset-0 px-6 md:px-15 pt-8 md:pt-20 pb-6 grid grid-cols-1 md:grid-cols-12 gap-6">
                             {/* Left text */}
-                            <div className="pl-50 max-w-3xl text-white col-span-8 leading-relaxed space-y-3">
-                                <h2 className="text-lg font-semibold mb-1">Project 1</h2>
-                                <p className=''>
+                            <div className="xl:pl-50 max-w-3xl text-white col-span-8 leading-relaxed space-y-3">
+                                <h2 className="text-[30px] text-[#2A6F7E] font-semibold mb-1">Project 1</h2>
+                                <p className='text-black font-light'>
                                     At Shantira Realty, we believe a home is more than just a property; it’s the foundation for meaningful living where memories take shape. Guided by trust and transparency, we help people find homes that truly match their needs, turning every purchase into a confident and worry-free experience.
                                     Our platform brings developers, builders, and buyers together through honesty and reliability. By simplifying property sales and fostering genuine connections, we go beyond transactions to create lasting relationships and living spaces that inspire trust, comfort, and a better way of life.
                                 </p>
                             </div>
 
                             {/* Right USP list */}
-                            <div className=" text-white text-xs col-span-4 pl-10">
+                            <div className=" text-white text-xs col-span-4 md:pl-10">
                                 <ul className="space-y-4">
                                     {uSPs.map((item, i) => (
                                         <li key={i} className="flex items-center gap-3">
-                                            <span className="h-10 w-10 rounded-full bg-[#225D9C]" />
-                                            <span>{item}</span>
+                                            <span className="h-10 w-10 rounded-full bg-[#356DA4]" />
+                                            <span className='text-[#1E1E1E] text-[20px] font-medium'>{item}</span>
                                         </li>
                                     ))}
                                 </ul>
@@ -72,7 +72,7 @@ const Projects = () => {
                     </div>
 
                     {/* Bottom overlapping cards */}
-                    <div className="mt-[-400px] relative z-10 px-15">
+                    <div className=" lg:mt-[-350px] relative z-10 px-15">
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                             {projectImages.map((card) => (
                                 <article
@@ -84,8 +84,8 @@ const Projects = () => {
                                         alt={card.title}
                                         className="w-full h-40 rounded-2xl object-cover"
                                     />
-                                    <div className="px-3 py-3 justify-center items-center ">
-                                        <p className="text-[11px] leading-relaxed">
+                                    <div className="px-3 py-3">
+                                        <p className=" text-center text-white leading-relaxed font-extralight">
                                             {card.title}
                                         </p>
                                     </div>
