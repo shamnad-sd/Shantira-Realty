@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Images from "../UI/Images";
+import Buttons from "../UI/Buttons";
+
 
 const HomeAbout = () => {
   return (
@@ -40,9 +42,10 @@ const HomeAbout = () => {
               At Shantira Realty, we believe a home is more than just a property; it’s the foundation for meaningful living where memories take shape. Guided by trust and transparency, we help people find homes that truly match their needs, turning every purchase into a confident and worry-free experience.
               Our platform brings developers, builders, and buyers together through honesty and reliability. By simplifying property sales and fostering genuine connections, we go beyond transactions to create lasting relationships and living spaces that inspire trust, comfort, and a better way of life.
             </p>
-            <button className="mt-2 cursor-pointer inline-flex items-center rounded-md bg-white text-[#2A6F7E] hover:bg-[#CFA77F] hover:text-white transition duration-100  px-6 py-1 shadow-sm">
-              Know More
-            </button>
+            <Buttons
+              title={'Know More'}
+              link={'/about'}
+            />
           </div>
 
         </div>

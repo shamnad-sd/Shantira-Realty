@@ -41,7 +41,7 @@ const ProjectCard = ({
                 </div>
 
                 {/* Circular arrow button */}
-                <Link href={`/project/${slug}`}>
+                <Link href={`/projects/${slug}`}>
                     <button
                         type="button"
                         className="flex h-8 w-8 cursor-pointer items-center justify-center rounded-full 

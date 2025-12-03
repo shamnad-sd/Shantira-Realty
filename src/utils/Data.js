@@ -82,7 +82,7 @@ export const projects = [
     title: 'Marina One',
     subtitle: 'Luxury Apartments, SilverSand Island, Kochi',
     details: '1850 to 3118 Sq.ft | 3 & 4 BHK',
-    image: '/projectImg/project2.png',
+    image: '/projectImg/sectionImg.png',
   },
   {
     id: 3,
@@ -91,6 +91,30 @@ export const projects = [
     subtitle: 'Luxury Apartments, SilverSand Island, Kochi',
     details: '1850 to 3118 Sq.ft | 3 & 4 BHK',
     image: '/projectImg/project1.jpg',
+  },
+  {
+    id: 4,
+    slug:'marina-one',
+    title: 'Marina One',
+    subtitle: 'Luxury Apartments, SilverSand Island, Kochi',
+    details: '1850 to 3118 Sq.ft | 3 & 4 BHK',
+    image: '/projectImg/sectionImg.png',
+  },
+  {
+    id: 5,
+    slug:'ocean-breeze',
+    title: 'Sobha Atlantis',
+    subtitle: 'Luxury Apartments, SilverSand Island, Kochi',
+    details: '1850 to 3118 Sq.ft | 3 & 4 BHK',
+    image: '/projectImg/project1.jpg',
+  },
+  {
+    id: 6,
+    slug:'marina-one',
+    title: 'Marina One',
+    subtitle: 'Luxury Apartments, SilverSand Island, Kochi',
+    details: '1850 to 3118 Sq.ft | 3 & 4 BHK',
+    image: '/projectImg/sectionImg.png',
   },
 ];
 
@@ -148,3 +172,29 @@ export const blogs = [
     image: "/projectImg/project1.jpg",
   },
 ];
+
+
+export const projectPageBottom = [
+    {
+        id: 1,
+        title: "At Shantira Realty, we believe a home is more than just a property.",
+        image: "/projectImg/bottomImg1.jpg",
+    },
+    {
+        id: 2,
+        title: "At Shantira Realty, we believe a home is more than just a property.",
+        image: "/projectImg/bottomImg2.jpg",
+    },
+    {
+        id: 3,
+        title: "At Shantira Realty, we believe a home is more than just a property.",
+        image: "/projectImg/bottomImg3.jpg",
+    },
+    {
+        id: 4,
+        title: "At Shantira Realty, we believe a home is more than just a property.",
+        image: "/projectImg/bottomImg4.jpg",
+    },
+];
+
+export const uSPs = ["USP / Details", "USP / Details", "USP / Details", "USP / Details"];

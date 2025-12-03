@@ -1,52 +1,38 @@
 import React from 'react'
 import PagesBanner from './UI/PagesBanner'
+import Buttons from './UI/Buttons';
+import Images from './UI/Images';
+import { projectPageBottom, projects, uSPs } from '@/utils/Data';
+import ProjectBottomCard from './UI/ProjectBottomCard';
+import ProjectCard from './UI/ProjectCard';
 
-const projectImages = [
-    {
-        id: 1,
-        title: "At Shantira Realty, we believe a home is more than just a property.",
-        image: "/projectImg/project1.jpg",
-    },
-    {
-        id: 2,
-        title: "At Shantira Realty, we believe a home is more than just a property.",
-        image: "/projectImg/project1.jpg",
-    },
-    {
-        id: 3,
-        title: "At Shantira Realty, we believe a home is more than just a property.",
-        image: "/projectImg/project1.jpg",
-    },
-    {
-        id: 4,
-        title: "At Shantira Realty, we believe a home is more than just a property.",
-        image: "/projectImg/project1.jpg",
-    },
-];
 
-const uSPs = ["USP / Details", "USP / Details", "USP / Details", "USP / Details"];
 
 const Projects = () => {
     return (
 
-        <div>
+        <section>
             <PagesBanner
                 bannerImg={"/projectImg/project-banner.jpg"}
                 bannerTitle={"Projects"}
             />
-            <section className="bg-[#2A6F7E] pb-20">
+            <div className="bg-[#2A6F7E] lg:pb-20  overflow-hidden">
                 <div className=" relative">
                     {/* Top content over hero image */}
                     <div className="relative overflow-hidden shadow-lg">
                         {/* Background hero image */}
-                        <img
-                            src="/projectImg/sectionImg.png"
+                        <Images
+                            imageurl="/projectImg/sectionImg.png"
+                            width={1400}
+                            height={700}
+                            placeholder={true}
+                            quality={70}
                             alt="Project 1"
-                            className="w-full h-auto object-cover"
+                            classes="w-full h-[750px]  sm:h-[600px] md:h-[480px] lg:h-auto object-cover"
                         />
 
                         {/* Text + USPs */}
-                        <div className="absolute inset-0 px-6 md:px-15 pt-8 md:pt-20 pb-6 grid grid-cols-1 md:grid-cols-12 gap-6">
+                        <div className="absolute inset-0 px-6 md:px-15 pt-8 sm:pt-13 md:pt-20 pb-6 grid grid-cols-1 md:grid-cols-12 md:gap-6">
                             {/* Left text */}
                             <div className="xl:pl-50 max-w-3xl text-white col-span-8 leading-relaxed space-y-3">
                                 <h2 className="text-[30px] text-[#2A6F7E] font-semibold mb-1">Project 1</h2>
@@ -72,37 +58,40 @@ const Projects = () => {
                     </div>
 
                     {/* Bottom overlapping cards */}
-                    <div className=" lg:mt-[-350px] relative z-10 px-15">
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                            {projectImages.map((card) => (
-                                <article
-                                    key={card.id}
-                                    className=" overflow-hidden"
-                                >
-                                    <img
-                                        src={card.image}
-                                        alt={card.title}
-                                        className="w-full h-40 rounded-2xl object-cover"
-                                    />
-                                    <div className="px-3 py-3">
-                                        <p className=" text-center text-white leading-relaxed font-extralight">
-                                            {card.title}
-                                        </p>
-                                    </div>
-                                </article>
-                            ))}
-                        </div>
+                    <div className="mt-16 lg:mt-[-380px] relative z-10 px-6 md:px-15">
+                        <ProjectBottomCard />
 
                         {/* Read more button */}
-                        <div className="mt-6 flex justify-center">
-                            <button className="px-8 py-2 rounded-full bg-white text-[#2A6F7E] text-xs font-medium shadow-md hover:bg-gray-100">
-                                Read More
-                            </button>
+                        <div className="mt-2 flex justify-center">
+                            <Buttons
+                                title={'Read More'}
+                                link={''}
+                            />
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+            <div className='md:pt-16 md:pb-5 px-6 md:px-15 pt-15'>
+                <div className="flex flex-wrap justify-center gap-6">
+                    {projects.map((project) => (
+                        <article
+                            key={project.id ?? project.title}
+                            className="relative w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]
+                         rounded-2xl overflow-hidden shadow-[0_18px_40px_rgba(0,0,0,0.35)]"
+                        >
+                            <ProjectCard
+                                slug={project.slug}
+                                ImageUrl={project.image}
+                                ImageAlt={project.title}
+                                ProjectTitle={project.title}
+                                ProjectSubtitle={project.subtitle}
+                                ProjectDetails={project.details}
+                            />
+                        </article>
+                    ))}
+                </div>
+            </div>
+        </section>
     )
 }
 
