@@ -1,4 +1,5 @@
 import { blogs } from "@/utils/Data";
+import Link from "next/link";
 
 
 const HomeBlog = () => {
@@ -39,9 +40,11 @@ const HomeBlog = () => {
 
         {/* Read more button */}
         <div className="mt-4 flex justify-center">
+          <Link href={'/blog'}>
           <button className="mt-2 cursor-pointer inline-flex items-center rounded-md bg-white text-[#2A6F7E] hover:bg-[#CFA77F] hover:text-white transition duration-100  px-6 py-1 shadow-sm">
               Read More
             </button>
+          </Link>
         </div>
       </div>
     </section>

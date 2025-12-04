@@ -88,31 +88,31 @@ export const services = [
     title: "Property Consultation",
     description:
       "At Shantira Realty, we believe a home is more than just a property; it’s the foundation for meaningful living where memories take shape. Guided by trust and transparency, we help people. it’s the for meaningful living.",
-    icon: "🏠",
+    icon: "/svg/svg1.svg",
   },
   {
     title: "Investment Advisory",
     description:
       "At Shantira Realty, we believe a home is more than just a property; it’s the foundation for meaningful living where memories take shape. Guided by trust and transparency, we help people. it’s the for meaningful living.",
-    icon: "📈",
+    icon: "/svg/svg2.svg",
   },
   {
     title: "Legal & Documentation",
     description:
       "At Shantira Realty, we believe a home is more than just a property; it’s the foundation for meaningful living where memories take shape. Guided by trust and transparency, we help people. it’s the for meaningful living.",
-    icon: "⚖️",
+    icon: "/svg/svg3.svg",
   },
   {
     title: "NRI Assistance",
     description:
       "At Shantira Realty, we believe a home is more than just a property; it’s the foundation for meaningful living where memories take shape. Guided by trust and transparency, we help people. it’s the for meaningful living.",
-    icon: "🌏",
+    icon: "/svg/svg4.svg",
   },
   {
     title: "Developer Partnerships",
     description:
       "At Shantira Realty, we believe a home is more than just a property; it’s the foundation for meaningful living where memories take shape. Guided by trust and transparency, we help people. it’s the for meaningful living.",
-    icon: "🤝",
+    icon: "/svg/svg5.svg",
   },
 ];
 

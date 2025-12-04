@@ -17,7 +17,7 @@ const HomeServices = () => {
             >
               <div className="flex items-center gap-4">
                 <div className="h-16 w-16 flex items-center justify-center rounded-full bg-[#D4A574] text-lg">
-                  {service.icon}
+                  <img src={service.icon} alt={service.title} />
                 </div>
                 <h3 className="text-[18px] max-w-20 ">{service.title}</h3>
               </div>
