@@ -9,7 +9,6 @@ const Footer = () => {
   return (
     <footer className="section-color text-white py-17 px-4 md:px-15">
       <div className="mx-auto">
-        {/* Top section */}
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6   gap-10 border-b border-[#D4A574]/40 pb-10">
           {/* Logo / Brand */}
           <div className="md:col-span-1 lg:col-span-2">
