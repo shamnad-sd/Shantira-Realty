@@ -15,5 +15,5 @@ export const siteFromEmail = process.env.NEXT_PUBLIC_SITE_FROM_EMAIL;
 
 
 export const siteName = "Shantira Realty";
-export const siteLogo = '/Logo.png'
+export const siteLogo = '/public/Logo.png'
 export const copyright = `© ${new Date().getFullYear()} Shantira Realty.`;

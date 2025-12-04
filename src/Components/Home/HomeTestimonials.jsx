@@ -48,9 +48,8 @@ const HomeTestimonials = () => {
                         alt={item.name}
                         width={120}
                         height={120}
-                        // quality={90}
                         placeholder={true}
-                        className="w-full h-full object-cover"
+                        classes="w-full h-full object-cover"
                       />
                     </div>
 
@@ -72,7 +71,6 @@ const HomeTestimonials = () => {
               ))}
             </Swiper>
 
-            {/* arrows + bullets row */}
             <div className="pt-5 flex items-center justify-between max-w-[220px] mx-auto">
               <button
                 className="testi-prev cursor-pointer flex items-center justify-center text-white hover:opacity-80"
@@ -80,10 +78,7 @@ const HomeTestimonials = () => {
               >
                 <ArrowLeft className="w-7 h-7" />
               </button>
-
-              {/* bullets in the middle, width only as wide as bullets */}
               <div className="testi-pagination inline-flex items-center justify-center" />
-
               <button
                 className="testi-next cursor-pointer flex items-center justify-center text-white hover:opacity-80"
                 aria-label="Next"

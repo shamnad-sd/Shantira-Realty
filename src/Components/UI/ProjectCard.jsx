@@ -12,23 +12,17 @@ const ProjectCard = ({
     ProjectDetails,
 }) => {
     return (
-        <div>
-            {/* Image */}
+        <section>
             <Images
                 imageurl={ImageUrl}
                 alt={ImageAlt}
                 width={1200}
                 height={600}
-                // quality={90}
                 priority={true}
                 placeholder={true}
                 classes="w-full h-56 md:h-74 object-cover"
             />
-
-            {/* Bottom overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
-
-            {/* Text content */}
             <div className="absolute inset-x-0 bottom-0 p-7 flex items-end justify-between gap-4">
                 <div className="text-white">
                     <h3 className="text-[23px] mb-1 apollo-heading">{ProjectTitle}</h3>
@@ -40,7 +34,6 @@ const ProjectCard = ({
                     </p>
                 </div>
 
-                {/* Circular arrow button */}
                 <Link href={`/projects/${slug}`}>
                     <button
                         type="button"
@@ -52,7 +45,7 @@ const ProjectCard = ({
                     </button>
                 </Link>
             </div>
-        </div>
+        </section>
     )
 }
 

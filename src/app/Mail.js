@@ -56,7 +56,7 @@ export async function sendMail({ sendTo, subject, message, name }) {
              <tr>
                  <td style="padding: 20px; color: #15181E;">
                      <p style="font-size: 16px; line-height: 1.6; color:#666; padding-top:10px; padding-bottom:10px; border-bottom:solid thin #ddd; margin-bottom:20px;">${subject}</p>
-                    <P>${message}</p>
+                     <P>${message}</p>
                  </td>
              </tr>
  

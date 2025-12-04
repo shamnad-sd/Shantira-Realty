@@ -24,9 +24,6 @@ const CtaForm = () => {
                   Get In <br/>
                   Touch With Us
                 </p>
-                {/* <p className="text-3xl md:text-4xl  leading-tight">
-                  Touch With Us
-                </p> */}
               </div>
             </div>
           </div>

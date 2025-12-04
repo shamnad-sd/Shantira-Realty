@@ -15,21 +15,17 @@ const HomeHero = () => {
 
   return (
     <>
-      {/* Custom Navigation Buttons */}
       <div className="absolute z-50 right-10 md:right-40 bottom-5 flex items-center gap-4 pointer-events-none">
-        {/* Prev */}
         <button
           ref={prevRef}
           className="custom-prev pointer-events-auto w-8 h-8 rounded-full bg-black/70 flex items-center justify-center"
           aria-label="Previous"
         >
-          {/* small icon you control */}
           <svg width="25" height="25" viewBox="0 0 24 24" fill="none">
             <path d="M15 6 L9 12 L15 18" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </button>
 
-        {/* Next */}
         <button
           ref={nextRef}
           className="custom-next pointer-events-auto w-8 h-8 rounded-full bg-black/70 flex items-center justify-center"
@@ -62,14 +58,12 @@ const HomeHero = () => {
           {slides.map((slide) => (
             <SwiperSlide key={slide.id}>
               <div className="relative h-full w-full">
-                {/* Background Image with Overlay */}
                 <div
                   className="absolute inset-0 bg-cover bg-center"
                   style={{
                     backgroundImage: `url(${slide.image})`,
                   }}
                 >
-                  {/* Left Side Blur Overlay */}
                   <div className="absolute inset-y-0 left-0 w-1/3 bg-linear-to-r from-black/60 to-transparent" style={{ backdropFilter: 'blur(2px)' }}></div>
                 </div>
 

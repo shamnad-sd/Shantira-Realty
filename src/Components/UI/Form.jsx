@@ -18,7 +18,6 @@ const Form = () => {
     setLoading(true);
 
     try {
-      // mail to admin
       await sendMail({
         sendTo: `${siteEmail}`,
         name: "Admin",
@@ -26,7 +25,6 @@ const Form = () => {
         message: await ContactEmailTemplate(fullName, mailId, phone, message, ""),
       });
 
-      // thank-you mail to user
       await sendMail({
         sendTo: mailId,
         name: fullName,
@@ -57,7 +55,6 @@ const Form = () => {
 
       <div className="w-full lg:w-[55%] px-8 lg:px-0 lg:pr-10 py-8 lg:py-10 flex items-center">
         <form onSubmit={handleSubmit} className="w-full space-y-4">
-          {/* Full name + message */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             <div className="space-y-3">
               <label className="block text-[11px] text-gray-200 mb-1 pl-4">

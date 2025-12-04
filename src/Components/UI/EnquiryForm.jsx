@@ -25,16 +25,14 @@ const EnquiryForm = () => {
     setLoading(true);
 
     try {
-      // mail to admin
       await sendMail({
         sendTo: `${siteEmail}`,
         name: "Admin",
         subject: `Enquiry - ${siteName}`,
-        // no captcha passed into the template
         message: await ContactEmailTemplate(fullName, mailId, phone, "", ""),
       });
 
-      // thank-you mail to user
+
       await sendMail({
         sendTo: mailId,
         name: fullName,

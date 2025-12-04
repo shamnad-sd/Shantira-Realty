@@ -19,22 +19,18 @@ const Projects = () => {
             />
             <div className="bg-[#2A6F7E] lg:pb-20  overflow-hidden">
                 <div className=" relative">
-                    {/* Top content over hero image */}
                     <div className="relative overflow-hidden shadow-lg">
-                        {/* Background hero image */}
                         <Images
                             imageurl="/projectImg/sectionImg.png"
                             width={1400}
                             height={700}
                             placeholder={true}
-                            // quality={70}
                             alt="Project 1"
                             classes="w-full h-[750px]  sm:h-[600px] md:h-[480px] lg:h-auto object-cover"
                         />
 
-                        {/* Text + USPs */}
+
                         <div className="absolute inset-0 px-6 md:px-15 pt-8 sm:pt-13 md:pt-20 pb-6 grid grid-cols-1 md:grid-cols-12 md:gap-6">
-                            {/* Left text */}
                             <div className="xl:pl-50 max-w-3xl text-white col-span-8 leading-relaxed space-y-3">
                                 <h2 className="text-[30px] text-[#2A6F7E] font-semibold mb-1">Project 1</h2>
                                 <p className='text-black font-light'>
@@ -43,7 +39,6 @@ const Projects = () => {
                                 </p>
                             </div>
 
-                            {/* Right USP list */}
                             <div className=" text-white text-xs col-span-4 md:pl-10">
                                 <ul className="space-y-4">
                                     {uSPs.map((item, i) => (
@@ -57,12 +52,8 @@ const Projects = () => {
 
                         </div>
                     </div>
-
-                    {/* Bottom overlapping cards */}
                     <div className="mt-16 lg:mt-[-380px] relative z-10 px-6 md:px-15">
                         <ProjectBottomCard />
-
-                        {/* Read more button */}
                         <div className="mt-2 flex justify-center">
                             <Buttons
                                 title={'Read More'}

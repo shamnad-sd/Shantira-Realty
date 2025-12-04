@@ -15,7 +15,6 @@ const NavBar = () => {
       <nav className="fixed md:top-10 top-5 left-5 md:left-15 md:right-15 right-5 z-50 bg-black/50 backdrop-blur-sm rounded-xl shadow-md">
         <div className="mx-auto px-6 py-5">
           <div className="flex items-center justify-between">
-            {/* Logo */}
             <div className="flex items-center space-x-2">
               <Link href={'/'}>
                 <Images
@@ -73,13 +72,10 @@ const NavBar = () => {
           </div>
         </div>
       </nav>
-
-      {/* Mobile overlay + slide-in panel */}
       <div
         className={`fixed inset-0 z-70 md:hidden transition ${open ? "pointer-events-auto" : "pointer-events-none"
           }`}
       >
-        {/* dark overlay */}
         <div
           className={`absolute inset-0 bg-black/50 transition-opacity ${open ? "opacity-100" : "opacity-0"
             }`}

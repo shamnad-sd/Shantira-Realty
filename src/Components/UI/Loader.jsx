@@ -13,7 +13,6 @@ export default function Loader() {
                 className="fixed inset-0 z-50 flex items-center justify-center bg-white"
             >
                 <div className="relative flex flex-col items-center space-y-6">
-                    {/* Spinning ring */}
                     <div className="relative w-24 h-24">
                         <motion.div
                             className="absolute inset-0 rounded-full border-4 border-gray-200"
@@ -34,7 +33,7 @@ export default function Loader() {
                             }}
                         />
                         
-                        {/* Logo in center */}
+                    
                         <div className="absolute inset-0 flex items-center justify-center">
                             <Image 
                                 src="/LoaderLogo.png" 
@@ -45,8 +44,6 @@ export default function Loader() {
                             />
                         </div>
                     </div>
-
-                    {/* Loading text */}
                     <div className="flex items-center space-x-1">
                         <span className="text-sm font-medium" style={{ color: '#CFA77F' }}>
                             Loading

@@ -10,13 +10,10 @@ const ProjectOverview = ({
     return (
         <section>
             <div className="mx-auto text-white pb-12">
-                {/* Overview text */}
                 <h2 className="text-center mb-3 apollo-heading text-white text-[28px]">Overview</h2>
                 <p className="leading-relaxed text-center font-extralight max-w-4xl mx-auto mb-10">
                     Pristine and picture perfect, SOBHA Atlantis is on an alluring island amidst emerald waters and sprawling greens – truly a pearl of the Arabian Sea. These 3 & 4 BHK luxury abodes combine connectivity, serenity, and exclusivity in perfect measure to offer a holistic urban lifestyle – a prized possession to pass on to generations.
                 </p>
-
-                {/* Icon buttons row */}
                 <div className="flex flex-wrap justify-center gap-6 mb-12">
                     {overviewButtons.map((btn) => (
                         <button
@@ -31,23 +28,21 @@ const ProjectOverview = ({
                     ))}
                 </div>
 
-
-                {/* First content row */}
                 <div className="space-y-10">
                     {project.overviewSections?.map((section, index) => {
-                        const isImageLeft = index % 2 === 1; // desktop layout
+                        const isImageLeft = index % 2 === 1;
 
                         return (
                             <div
                                 key={section.id}
                                 className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center"
                             >
-                                {/* Image column */}
+
                                 <div
-                                    className={`
-            order-2
-            ${isImageLeft ? "lg:order-1 lg:col-span-7" : "lg:order-2 lg:col-span-7"}
-          `}
+                                className={`
+                                    order-2
+                                    ${isImageLeft ? "lg:order-1 lg:col-span-7" : "lg:order-2 lg:col-span-7"}
+                                `}
                                 >
                                     <Images
                                         imageurl={section.image}
@@ -78,10 +73,7 @@ const ProjectOverview = ({
                         );
                     })}
                 </div>
-
-
             </div>
-
             <ProjectBottomCard />
         </section>
     )

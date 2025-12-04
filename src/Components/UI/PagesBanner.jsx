@@ -5,20 +5,15 @@ import React from "react";
 const PagesBanner = ({ bannerImg, bannerTitle }) => {
   return (
     <div className="relative h-screen">
-      {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${bannerImg})` }}
       />
-
-      {/* Title */}
       <div className="relative z-10 h-full flex items-center justify-center px-6">
         <h1 className="text-white apollo-heading text-4xl md:text-[48px] pt-15 text-center">
           {bannerTitle}
         </h1>
       </div>
-
-      {/* Floating button always visible */}
       <Link href={'/contact'}
         className="fixed z-30 bottom-6 right-6 md:bottom-10 md:right-10
                    h-14 w-14 rounded-full bg-[#CFA77F]
