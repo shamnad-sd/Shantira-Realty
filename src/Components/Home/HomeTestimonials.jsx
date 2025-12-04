@@ -73,7 +73,7 @@ const HomeTestimonials = () => {
             </Swiper>
 
             {/* arrows + bullets row */}
-            <div className="pt-5 flex items-center justify-center gap-4">
+            <div className="pt-5 flex items-center justify-between max-w-[220px] mx-auto">
               <button
                 className="testi-prev cursor-pointer flex items-center justify-center text-white hover:opacity-80"
                 aria-label="Previous"

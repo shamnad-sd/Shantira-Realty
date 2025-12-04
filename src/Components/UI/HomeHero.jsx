@@ -6,6 +6,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { slides } from '@/utils/Data';
+import Link from 'next/link';
 
 
 const HomeHero = () => {
@@ -74,7 +75,7 @@ const HomeHero = () => {
 
                 {/* Content */}
                 <div className="relative h-full flex items-center pt-20">
-                  <div className="max-w-7xl mx-auto px-6 w-full">
+                  <div className=" mx-auto px-6 md:px-15 w-full">
                     <div className="max-w-2xl">
                       <h1 className="text-white max-w-5 apollo-heading text-6xl md:text-[80px] font-normal leading-tight">
                         {slide.title}
@@ -85,9 +86,12 @@ const HomeHero = () => {
 
                       {/* Buttons */}
                       <div className="flex flex-wrap gap-4">
+                        <Link href={'/projects'}>
                         <button className="px-9 py-2.5 cursor-pointer bg-[#CFA77F] text-[#39230B] hover:bg-[#C49564] transition-colors rounded-md">
                           Explore Properties
                         </button>
+                        </Link>
+                        <Link href={'/contact'}>
                         <button className="px-9 py-2.5 cursor-pointer bg-transparent border-1 border-[#CFA77F] text-white hover:bg-[#356DA4] hover:border-[#356DA4] hover:text-white transition-colors rounded-md flex items-center gap-2">
                           <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M13.103 0.750153C16.804 1.16115 19.728 4.08115 20.143 7.78215" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -97,6 +101,7 @@ const HomeHero = () => {
 
                           Talk to an Expert
                         </button>
+                        </Link>
                       </div>
                     </div>
                   </div>

@@ -9,7 +9,7 @@ export const slides = [
   {
     id: 2,
     image: "./HomeImg/banner2.png",
-    title: "Creating Dreams",
+    title: "Finding Homes",
     subtitle: "Transform your vision into reality with our expertise",
   },
   {
