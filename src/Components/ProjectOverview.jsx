@@ -35,14 +35,20 @@ const ProjectOverview = ({
                 {/* First content row */}
                 <div className="space-y-10">
                     {project.overviewSections?.map((section, index) => {
-                        const isImageLeft = index % 2 === 1;
+                        const isImageLeft = index % 2 === 1; // desktop layout
 
                         return (
                             <div
                                 key={section.id}
                                 className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center"
                             >
-                                {isImageLeft && (
+                                {/* Image */}
+                                <div
+                                    className={`
+            ${isImageLeft ? "lg:order-1" : "lg:order-2"}
+            order-2
+          `}
+                                >
                                     <Images
                                         imageurl={section.image}
                                         alt={section.heading}
@@ -52,9 +58,16 @@ const ProjectOverview = ({
                                         priority={true}
                                         classes="w-full rounded-2xl object-cover shadow-lg"
                                     />
-                                )}
+                                </div>
 
-                                <div className="space-y-3">
+                                {/* Text */}
+                                <div
+                                    className={`
+            space-y-3
+            ${isImageLeft ? "lg:order-2" : "lg:order-1"}
+            order-1
+          `}
+                                >
                                     <h3 className="mb-1 apollo-heading text-white text-[28px]">
                                         {section.heading}
                                     </h3>
@@ -62,22 +75,11 @@ const ProjectOverview = ({
                                         {section.body}
                                     </p>
                                 </div>
-
-                                {!isImageLeft && (
-                                    <Images
-                                        imageurl={section.image}
-                                        alt={section.heading}
-                                        width={1200}
-                                        height={600}
-                                        placeholder={true}
-                                        priority={true}
-                                        classes="w-full rounded-2xl object-cover shadow-lg"
-                                    />
-                                )}
                             </div>
                         );
                     })}
                 </div>
+
             </div>
 
             <ProjectBottomCard />
