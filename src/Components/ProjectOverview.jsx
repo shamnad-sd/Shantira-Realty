@@ -40,13 +40,13 @@ const ProjectOverview = ({
                         return (
                             <div
                                 key={section.id}
-                                className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center"
+                                className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center"
                             >
-                                {/* Image */}
+                                {/* Image column */}
                                 <div
                                     className={`
-            ${isImageLeft ? "lg:order-1" : "lg:order-2"}
             order-2
+            ${isImageLeft ? "lg:order-1 lg:col-span-7" : "lg:order-2 lg:col-span-7"}
           `}
                                 >
                                     <Images
@@ -60,12 +60,11 @@ const ProjectOverview = ({
                                     />
                                 </div>
 
-                                {/* Text */}
+                                {/* Text column */}
                                 <div
                                     className={`
-            space-y-3
-            ${isImageLeft ? "lg:order-2" : "lg:order-1"}
-            order-1
+            order-1 space-y-3
+            ${isImageLeft ? "lg:order-2 lg:col-span-5" : "lg:order-1 lg:col-span-5"}
           `}
                                 >
                                     <h3 className="mb-1 apollo-heading text-white text-[28px]">
@@ -79,6 +78,7 @@ const ProjectOverview = ({
                         );
                     })}
                 </div>
+
 
             </div>
 
