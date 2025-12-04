@@ -94,7 +94,7 @@ const NavBar = () => {
         >
           <div className="flex items-center justify-between px-4 py-4 border-b border-white/10">
             <Images
-              imageurl={"/logo.png"}
+              imageurl={"/Logo.png"}
               alt="nav logo"
               width={100}
               height={50}

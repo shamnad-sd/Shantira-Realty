@@ -4,7 +4,6 @@ import Images from './Images';
 import { copyright } from '@/utils/variable';
 import { navItems, projects } from '@/utils/Data';
 import Link from 'next/link';
-import Projects from '../Projects';
 
 const Footer = () => {
   return (
