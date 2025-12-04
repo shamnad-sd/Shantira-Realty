@@ -33,15 +33,25 @@ const Footer = () => {
             <p className=" text-gray-300">
               Address Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
             </p>
-            <p className=" text-gray-300 mt-3">Phone Number</p>
-            <p className=" text-gray-300 mt-3">mail id</p>
+            <p className="text-gray-300 mt-3">
+              <a href="12345678900" className="hover:underline">
+                +91 12345678900
+              </a>
+            </p>
+
+            <p className="text-gray-300 mt-3">
+              <a href="mailto:info@shantirarealty.com" className="hover:underline">
+                info@shantirarealty.com
+              </a>
+            </p>
+
           </div>
 
           {/* Projects */}
           <div>
             <h3 className="text-[19px] mb-2">Projects</h3>
             <ul className="space-y-3  text-gray-300">
-               {projects.map((item, index) => (
+              {projects.map((item, index) => (
                 <li key={index}>
                   <Link
                     href={`projects/${item.slug}`}
@@ -80,7 +90,7 @@ const Footer = () => {
                   <path d="M11.851 3.95839H14.4979V0.167871C14.0412 0.116219 12.4708 0 10.6418 0C6.82552 0 4.21129 1.97373 4.21129 5.60134V8.9399H0V13.1774H4.21129V23.8397H9.37452V13.1784H13.4155L14.0569 8.94089H9.37331V6.02152C9.37452 4.79675 9.77559 3.95839 11.851 3.95839Z" fill="white" />
                 </svg>
 
-               <a href="https://www.facebook.com/"><span>Facebook</span></a> 
+                <a href="https://www.facebook.com/"><span>Facebook</span></a>
               </li>
               <li className="flex items-center space-x-4">
                 <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -109,7 +119,7 @@ const Footer = () => {
             <Link href={'/terms-conditions'}><button className="hover:text-[#D4A574] cursor-pointer">Terms &amp; Conditions</button></Link>
             <Link href={'/privacy-policy'}><button className="hover:text-[#D4A574] cursor-pointer">Privacy Policy</button></Link>
           </div>
-        <p className='block md:hidden'>{copyright}</p>
+          <p className='block md:hidden'>{copyright}</p>
         </div>
       </div>
     </footer>
