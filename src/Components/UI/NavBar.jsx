@@ -19,7 +19,7 @@ const NavBar = () => {
             <div className="flex items-center space-x-2">
               <Link href={'/'}>
                 <Images
-                  imageurl={"/logo.png"}
+                  imageurl={"/Logo.png"}
                   alt="nav logo"
                   width={100}
                   height={50}

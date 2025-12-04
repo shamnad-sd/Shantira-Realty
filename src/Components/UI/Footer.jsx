@@ -17,7 +17,7 @@ const Footer = () => {
             {/* Replace with your Image component */}
             <div className="mb-4">
               <Images
-                imageurl={'/logo.png'}
+                imageurl={'/Logo.png'}
                 alt='nav logo'
                 width={140}
                 height={70}
