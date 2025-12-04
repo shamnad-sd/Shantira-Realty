@@ -14,13 +14,14 @@ const About = () => {
                 />
                 <section className="bg-[#2A6F7E] md:py-16 px-4 md:px-15 py-10">
                     <div className=" mx-auto text-white">
+                        <div className='max-w-6xl mx-auto'>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start mb-12">
-                            <div className="bg-white/10 rounded-md overflow-hidden min-h-[220px]">
+                            <div className=" rounded-md overflow-hidden min-h-[220px]">
                                 <Images
                                     imageurl="/aboutImg/aboutbanner.png"
                                     alt="Who we are"
-                                    width={1200}
-                                    height={600}
+                                    width={1400}
+                                    height={700}
                                     classes="w-full h-full object-cover"
                                 />
                             </div>
@@ -31,12 +32,12 @@ const About = () => {
                                     Shantira Realty is a Kerala-based real estate consultancy built
                                     on the values of trust, transparency, and integrity. We help
                                     homebuyers make confident property decisions through reliable
-                                    guidance and verified listings.<br/>
+                                    guidance and verified listings.<br />
                                     With a strong network of property developers and builders,
                                     Shantira Realty bridges the gap between genuine buyers and
                                     quality projects. By bringing professionalism, market expertise,
                                     and a customer-first approach to every interaction, we ensure
-                                    that every recommendation we make is backed by real value.<br/>
+                                    that every recommendation we make is backed by real value.<br />
                                     What sets us apart is our commitment to building lasting
                                     relationships rather than just closing sales. Every project we
                                     take up is driven by the belief that trust is what turns promises
@@ -44,12 +45,13 @@ const About = () => {
 
                                 </p>
                                 <p>
-                                    
+
                                 </p>
                                 <p>
-                                    
+
                                 </p>
                             </div>
+                        </div>
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 ">
