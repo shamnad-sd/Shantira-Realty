@@ -1,4 +1,5 @@
 import { MessageSquare } from "lucide-react";
+import Link from "next/link";
 import React from "react";
 
 const PagesBanner = ({ bannerImg, bannerTitle }) => {
@@ -17,15 +18,17 @@ const PagesBanner = ({ bannerImg, bannerTitle }) => {
         </h1>
       </div>
 
-      {/* Floating button bottom-right */}
-      <button
-        type="button"
-        className="absolute z-20 bottom-6 right-6 md:bottom-[-25px] md:right-10
+      {/* Floating button always visible */}
+      <Link href={'/contact'}
+        className="fixed z-30 bottom-6 right-6 md:bottom-10 md:right-10
                    h-14 w-14 rounded-full bg-[#CFA77F]
-                   flex items-center justify-center "
+                   flex items-center justify-center shadow-lg"
       >
-        <MessageSquare  className="text-white w-5 h-5"/>
-      </button>
+
+
+
+        <MessageSquare className="text-white w-5 h-5" />
+      </Link>
     </div>
   );
 };
