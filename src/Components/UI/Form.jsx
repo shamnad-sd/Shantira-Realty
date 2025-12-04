@@ -53,7 +53,7 @@ const Form = () => {
         </div>
       )}
 
-      <div className="w-full lg:w-[55%] px-8 lg:px-0 lg:pr-10 py-8 lg:py-10 flex items-center">
+      <div className="w-full lg:w-[55%] px-4 md:px-7 lg:px-0 lg:pr-10 py-8 lg:py-10 flex items-center">
         <form onSubmit={handleSubmit} className="w-full space-y-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             <div className="space-y-3">

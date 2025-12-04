@@ -12,7 +12,7 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="fixed md:top-10 top-5 left-5 md:left-15 md:right-15 right-5 z-50 bg-black/50 backdrop-blur-sm rounded-xl shadow-md">
+      <nav className="fixed md:top-10 top-5 left-4 md:left-15 md:right-15 right-4 z-50 bg-black/50 backdrop-blur-sm rounded-xl shadow-md">
         <div className="mx-auto px-6 py-5">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
@@ -40,7 +40,7 @@ const NavBar = () => {
                   <Link
                     key={item.href}
                     href={item.href}
-                    className={`transition-colors ${isActive ? "text-[#D4A574]" : "text-white hover:text-[#D4A574]"
+                    className={`transition-colors ${isActive ? "text-[#D4A574]" : "text-white font-extralight hover:text-[#D4A574]"
                       }`}
                   >
                     {item.label}

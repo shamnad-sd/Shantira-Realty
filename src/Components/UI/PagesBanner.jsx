@@ -4,7 +4,7 @@ import React from "react";
 
 const PagesBanner = ({ bannerImg, bannerTitle }) => {
   return (
-    <div className="relative h-screen">
+    <div className="relative h-[60vh] md:h-[80vh] lg:h-screen ">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${bannerImg})` }}

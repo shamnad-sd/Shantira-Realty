@@ -4,7 +4,7 @@ import Form from './Form'
 
 const CtaForm = () => {
   return (
-    <section className="md:py-16 px-4 md:px-15 py-10">
+    <section className="md:pb-20 px-4 md:px-15 py-10">
       <div className="mx-auto">
         <div className="bg-[#11363D] rounded-[30px] overflow-hidden flex flex-col lg:flex-row">
           <div className="relative w-full lg:w-[45%]">

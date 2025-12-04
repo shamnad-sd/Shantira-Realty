@@ -16,7 +16,7 @@ const HomeAbout = () => {
         />
         <div className="absolute inset-0 bg-[#133c47]/90 mix-blend-multiply" />
         <div className="relative z-10 h-full grid grid-cols-12 items-center">
-          <div className="hidden md:flex col-span-5 justify-end items-end h-full pr-6">
+          <div className="hidden md:flex col-span-5 justify-end items-end h-full px-6 pr-6">
             <Images
               imageurl={"/HomeImg/AboutVector.png"}
               alt="Shantira vector"

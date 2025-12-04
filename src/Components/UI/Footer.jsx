@@ -7,10 +7,10 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="section-color text-white py-17 px-4 md:px-15">
+    <footer className="section-color text-white py-10 md:py-17 px-4 md:px-15">
       <div className="mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6   gap-10 border-b border-[#D4A574]/40 pb-10">
-          <div className="md:col-span-1 lg:col-span-2">
+        <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-6  gap-8  xl:gap-10 border-b border-[#D4A574]/40 pb-10">
+          <div className="md:col-span-1 xl:col-span-2">
             <div className="mb-4">
               <Images
                 imageurl={'/Logo.png'}
@@ -79,7 +79,7 @@ const Footer = () => {
 
           {/* Follow us */}
           <div>
-            <h3 className="text-[19px] mb-2">Follow us</h3>
+            <h3 className="text-[19px] mb-4">Follow us</h3>
             <ul className="space-y-6  text-gray-300">
               <li className="flex items-center space-x-4">
                 <svg width="15" height="24" viewBox="0 0 15 24" fill="none" xmlns="http://www.w3.org/2000/svg">
