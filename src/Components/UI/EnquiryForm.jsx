@@ -1,7 +1,11 @@
 "use client";
 
-import React, { useState } from "react";
-import { ContactEmailTemplate, sendMail, ThankYouEmailTemplate } from "@/app/Mail";
+import React, { useState, useEffect } from "react";
+import {
+  ContactEmailTemplate,
+  sendMail,
+  ThankYouEmailTemplate,
+} from "@/app/Mail";
 import { siteEmail, siteName } from "@/utils/variable";
 import toast from "react-hot-toast";
 import Loader from "./Loader";
@@ -10,15 +14,31 @@ const EnquiryForm = () => {
   const [fullName, setFullName] = useState("");
   const [mailId, setMailId] = useState("");
   const [phone, setPhone] = useState("");
-  const [captcha, setCaptcha] = useState("");
+
+  const [captchaInput, setCaptchaInput] = useState("");
+  const [captchaQuestion, setCaptchaQuestion] = useState("0 + 0 =");
+  const [captchaAnswer, setCaptchaAnswer] = useState(null);
+
   const [loading, setLoading] = useState(false);
+
+  const generateCaptcha = () => {
+    const a = Math.floor(Math.random() * 9) + 1;
+    const b = Math.floor(Math.random() * 9) + 1;
+    setCaptchaQuestion(`${a} + ${b} =`);
+    setCaptchaAnswer(a + b);
+    setCaptchaInput("");
+  };
+
+  useEffect(() => {
+    generateCaptcha();
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-  
-    if (captcha.trim() !== "15") {
+    if (captchaAnswer === null || Number(captchaInput.trim()) !== captchaAnswer) {
       toast.error("Captcha is incorrect.");
+      generateCaptcha();
       return;
     }
 
@@ -32,7 +52,6 @@ const EnquiryForm = () => {
         message: await ContactEmailTemplate(fullName, mailId, phone, "", ""),
       });
 
-
       await sendMail({
         sendTo: mailId,
         name: fullName,
@@ -45,11 +64,13 @@ const EnquiryForm = () => {
       setFullName("");
       setMailId("");
       setPhone("");
-      setCaptcha("");
+      setCaptchaInput("");
+      generateCaptcha();
     } catch (error) {
       setLoading(false);
       console.error("Error sending emails:", error);
       toast.error("Failed to send message. Try again!");
+      generateCaptcha();
     }
   };
 
@@ -119,14 +140,17 @@ const EnquiryForm = () => {
                     <label className="block text-[11px] text-gray-200 mb-1 pl-4">
                       Captcha*
                     </label>
-                    <input
-                      type="number"
-                      placeholder="12+3 ="
-                      value={captcha}
-                      onChange={(e) => setCaptcha(e.target.value)}
-                      required
-                      className="w-full rounded-md bg-white text-gray-800 text-sm px-4 py-2.5 outline-none"
-                    />
+                    <div className="flex items-center gap-3">
+                     
+                      <input
+                        type="number"
+                        placeholder={captchaQuestion}
+                        value={captchaInput}
+                        onChange={(e) => setCaptchaInput(e.target.value)}
+                        required
+                        className="flex-1 rounded-md bg-white text-gray-800 text-sm placeholder:text-[#183F47] px-4 py-2.5 outline-none"
+                      />
+                    </div>
                   </div>
                 </div>
 
