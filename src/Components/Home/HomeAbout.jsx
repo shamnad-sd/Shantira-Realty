@@ -35,7 +35,7 @@ const HomeAbout = () => {
             </p>
             <Buttons
               title={'Know More'}
-              link={'/about'}
+              link={'/about-us'}
             />
           </div>
 
