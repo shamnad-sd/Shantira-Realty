@@ -1,42 +1,36 @@
 import React from 'react'
-import Images from './UI/Images'
-import ProjectBottomCard from './UI/ProjectBottomCard'
+import ProjectOverview from './ProjectOverview'
+import LocationInsights from './LocationInsights'
+
+
+
 
 const ProjectDetails = ({ project }) => {
   return (
     <div>
-      
-      {/* Hero Section */}
       <div className="relative h-screen">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${project.image})` }}
+        />
+        <div className="relative z-10 h-full flex items-center justify-center px-6">
+          <h1 className="text-white apollo-heading text-4xl md:text-[48px] pt-15 text-center">
+            {project.title}
+          </h1>
+        </div>
 
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${project.image})` }}
-      />
-
-      {/* Overlay */}
-      {/* <div className="absolute inset-0 bg-black/50" /> */}
-
-      {/* Centered Content */}
-      <div className="relative z-10 h-full flex items-center justify-center px-6">
-        <h1 className="text-white apollo-heading text-4xl md:text-[48px] pt-15 text-center">
-          {project.title}
-        </h1>
       </div>
-
-    </div>
 
       {/* contact */}
       <div className="mt-16 relative z-10 px-6 md:px-15 ">
         <section className=" py-10 px-4 md:px-10">
-        <div className="max-w-3xl mx-auto">
+          <div className="max-w-3xl mx-auto">
             <h2 className='text-center mb-1 apollo-heading text-white text-[28px]'>Enquiry</h2>
-          <p className="text-center text-white font-extralight mb-6 text-[19px]">
-            Wish to get call back from our team? Fill your details.
-          </p>
+            <p className="text-center text-white font-extralight mb-6 text-[19px]">
+              Wish to get call back from our team? Fill your details.
+            </p>
 
-          
+
             <form className="w-full space-y-4">
               {/* Full name + message */}
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
@@ -49,7 +43,7 @@ const ProjectDetails = ({ project }) => {
                     placeholder="Full Name"
                     className="w-full rounded-md bg-white text-gray-800 text-sm px-4 py-2.5 outline-none"
                   />
-                  
+
 
                   <label className="block text-[11px] text-gray-200 mb-1 pl-4">
                     Phone Number*
@@ -84,19 +78,21 @@ const ProjectDetails = ({ project }) => {
                   />
                 </div>
               </div>
-                  <button
-                    type="submit"
-                    className="w-full h-[43px] rounded-md bg-[#CFA77F] text-white  font-light"
-                  >
-                    Submit
-                  </button>
+              <button
+                type="submit"
+                className="w-full h-[43px] rounded-md bg-[#CFA77F] text-white  font-light"
+              >
+                Submit
+              </button>
             </form>
-    
-        </div>
-      </section>
-        {/* <ProjectBottomCard /> */}
-      </div> 
-     
+
+          </div>
+        </section>
+      </div>
+      <div className='py-14 px-4 md:px-15'>
+      <ProjectOverview project={project}/>
+      <LocationInsights/>
+      </div>
 
     </div>
   )

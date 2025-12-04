@@ -15,7 +15,7 @@ const ProjectBottomCard = () => {
                         width={400}
                         height={200}
                         placeholder={true}
-                        quality={70}
+                        // quality={70}
                         alt={card.title}
                         classes="w-full h-50 rounded-xl object-cover"
                     />

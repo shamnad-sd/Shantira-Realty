@@ -30,7 +30,7 @@ const HomeAbout = () => {
               width={420}
               height={180}
               priority={true}
-              quality={90}
+              // quality={90}
               placeholder={true}
               classes="object-contain opacity-50 brightness-270"
             />

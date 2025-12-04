@@ -14,7 +14,7 @@ const CtaForm = () => {
               alt="Get in touch"
               width={900}
               height={600}
-              quality={90}
+              // quality={90}
               priority={true}
               placeholder={true}
               className="w-full h-full object-cover"

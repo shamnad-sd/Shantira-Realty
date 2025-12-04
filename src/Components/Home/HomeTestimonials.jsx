@@ -48,7 +48,7 @@ const HomeTestimonials = () => {
                         alt={item.name}
                         width={120}
                         height={120}
-                        quality={90}
+                        // quality={90}
                         placeholder={true}
                         className="w-full h-full object-cover"
                       />

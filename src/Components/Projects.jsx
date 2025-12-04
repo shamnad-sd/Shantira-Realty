@@ -26,7 +26,7 @@ const Projects = () => {
                             width={1400}
                             height={700}
                             placeholder={true}
-                            quality={70}
+                            // quality={70}
                             alt="Project 1"
                             classes="w-full h-[750px]  sm:h-[600px] md:h-[480px] lg:h-auto object-cover"
                         />
