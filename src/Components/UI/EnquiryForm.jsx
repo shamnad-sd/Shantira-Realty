@@ -85,7 +85,7 @@ const EnquiryForm = () => {
       <div className="bg-gradient-to-b from-[#496f9a] to-transparent">
         <div className="relative z-10 px-6 md:px-15">
           <section className="pb-10 px-4 md:px-10">
-            <div className="max-w-3xl mx-auto">
+            <div className="max-w-2xl mx-auto">
               <h2 className="text-center mb-1 apollo-heading text-white text-[28px]">
                 Enquiry
               </h2>

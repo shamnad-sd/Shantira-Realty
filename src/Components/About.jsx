@@ -15,10 +15,10 @@ const About = () => {
                 <section className="bg-[#2A6F7E] md:py-16 px-4 md:px-15 py-10">
                     <div className=" mx-auto text-white">
                         <div className='max-w-6xl mx-auto'>
-                        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 items-start mb-12">
-                            <div className=" rounded-md overflow-hidden min-h-[220px]">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-4 items-start mb-12">
+                            <div className=" rounded-md overflow-hidden min-h-[220px] ">
                                 <Images
-                                    imageurl="/aboutImg/aboutbanner.png"
+                                    imageurl="/projectImg/bottomImg4.jpg"
                                     alt="Who we are"
                                     width={1400}
                                     height={700}
@@ -26,7 +26,7 @@ const About = () => {
                                 />
                             </div>
 
-                            <div className="space-y-3 text-sm leading-relaxed">
+                            <div className="space-y-3 text-sm leading-relaxed pt-5 md:pt-10 lg:pt-0">
                                 <h2 className="text-[19px] font-semibold mb-1">Who We Are</h2>
                                 <p className='font-extralight'>
                                     Shantira Realty is a Kerala-based real estate consultancy built
@@ -44,12 +44,6 @@ const About = () => {
                                     into lasting relationships.
 
                                 </p>
-                                <p>
-
-                                </p>
-                                <p>
-
-                                </p>
                             </div>
                         </div>
                         </div>
@@ -58,7 +52,7 @@ const About = () => {
                             {aboutCards.map((card) => (
                                 <div
                                     key={card.title}
-                                    className="bg-[#E4EDF3] rounded-2xl p-10 py-15 flex flex-col gap-0 text-[#1E1E1E]"
+                                    className="bg-[#EAF1F2] rounded-2xl p-10 py-15 flex flex-col gap-0 text-[#1E1E1E]"
                                 >
                                     <div className="mb-3">
                                         {card.icon}

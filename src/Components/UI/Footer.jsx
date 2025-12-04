@@ -7,9 +7,9 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="section-color text-white py-10 md:py-17 px-4 md:px-15">
+    <footer className="bg-[#11363D] text-white py-10 md:py-17 px-4 md:px-15">
       <div className="mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-6  gap-8  xl:gap-10 border-b border-[#D4A574]/40 pb-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-6  gap-8  xl:gap-10 border-b border-[#CFB084] pb-10">
           <div className="md:col-span-1 xl:col-span-2">
             <div className="mb-4">
               <Images
@@ -26,16 +26,16 @@ const Footer = () => {
           {/* Contact */}
           <div>
             <h3 className="text-[19px] mb-2">Contact</h3>
-            <p className=" text-gray-300">
+            <p className="font-extralight ">
               Address Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
             </p>
-            <p className="text-gray-300 mt-3">
+            <p className="font-extralight mt-3">
               <a href="12345678900" className="hover:underline">
                 +91 12345678900
               </a>
             </p>
 
-            <p className="text-gray-300 mt-3">
+            <p className="font-extralight mt-3">
               <a href="mailto:info@shantirarealty.com" className="hover:underline">
                 info@shantirarealty.com
               </a>
@@ -46,12 +46,12 @@ const Footer = () => {
           {/* Projects */}
           <div>
             <h3 className="text-[19px] mb-2">Projects</h3>
-            <ul className="space-y-3  text-gray-300">
+            <ul className="space-y-3  ">
               {projects.map((item, index) => (
                 <li key={index}>
                   <Link
                     href={`projects/${item.slug}`}
-                    className="text-gray-300 "
+                    className="font-extralight"
                   >
                     {item.title}
                   </Link>
@@ -63,12 +63,12 @@ const Footer = () => {
           {/* Quick Links */}
           <div>
             <h3 className="text-[19px] mb-2">Quick Links</h3>
-            <ul className="space-y-3 text-gray-300">
+            <ul className="space-y-3 font-extralight ">
               {navItems.map((item, index) => (
                 <li key={index}>
                   <Link
                     href={item.href}
-                    className="text-gray-300 "
+                    className=" "
                   >
                     {item.label}
                   </Link>
@@ -80,7 +80,7 @@ const Footer = () => {
           {/* Follow us */}
           <div>
             <h3 className="text-[19px] mb-4">Follow us</h3>
-            <ul className="space-y-6  text-gray-300">
+            <ul className="space-y-6  font-extralight">
               <li className="flex items-center space-x-4">
                 <svg width="15" height="24" viewBox="0 0 15 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M11.851 3.95839H14.4979V0.167871C14.0412 0.116219 12.4708 0 10.6418 0C6.82552 0 4.21129 1.97373 4.21129 5.60134V8.9399H0V13.1774H4.21129V23.8397H9.37452V13.1784H13.4155L14.0569 8.94089H9.37331V6.02152C9.37452 4.79675 9.77559 3.95839 11.851 3.95839Z" fill="white" />
@@ -109,11 +109,11 @@ const Footer = () => {
         </div>
 
         {/* Bottom bar */}
-        <div className="flex flex-col md:flex-row items-center justify-between pt-6 text-sm text-gray-300 gap-4">
-          <p className='md:block hidden'>{copyright}</p>
-          <div className="flex items-center gap-6">
-            <Link href={'/terms-conditions'}><button className="hover:text-[#D4A574] cursor-pointer">Terms &amp; Conditions</button></Link>
-            <Link href={'/privacy-policy'}><button className="hover:text-[#D4A574] cursor-pointer">Privacy Policy</button></Link>
+        <div className="flex flex-col md:flex-row items-center justify-between pt-4 text-sm gap-4">
+          <p className='md:block hidden font-extralight'>{copyright}</p>
+          <div className="flex items-center gap-6 md:gap-15">
+            <Link href={'/terms-conditions'}><button className="hover:text-[#D4A574] cursor-pointer font-extralight">Terms &amp; Conditions</button></Link>
+            <Link href={'/privacy-policy'}><button className="hover:text-[#D4A574] font-extralight cursor-pointer">Privacy Policy</button></Link>
           </div>
           <p className='block md:hidden'>{copyright}</p>
         </div>

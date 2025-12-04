@@ -16,7 +16,7 @@ const ProjectBottomCard = () => {
                         height={200}
                         placeholder={true}
                         alt={card.title}
-                        classes="w-full h-50 rounded-xl object-cover"
+                        classes="w-full h-50 rounded-xl object-cover shadow-xl "
                     />
                     <div className="px-3 py-3">
                         <p className=" text-center text-white leading-relaxed font-extralight">
