@@ -30,7 +30,7 @@ const Footer = () => {
               Address Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
             </p>
             <p className="font-extralight mt-3">
-              <a href="12345678900" className="hover:underline">
+              <a href="tel:+9112345678900" className="hover:underline">
                 +91 12345678900
               </a>
             </p>
