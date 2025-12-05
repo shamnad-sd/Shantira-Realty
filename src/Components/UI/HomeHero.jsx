@@ -15,7 +15,7 @@ const HomeHero = () => {
 
   return (
     <>
-      <div className="absolute z-50 right-5 md:right-40 bottom-7 flex items-center gap-4 pointer-events-none">
+      <div className="absolute z-20 right-5 md:right-40 bottom-7 flex items-center gap-4 pointer-events-none">
         <button
           ref={prevRef}
           className="custom-prev pointer-events-auto w-8 h-8 rounded-full bg-black/70 flex items-center justify-center"
