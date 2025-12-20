@@ -17,3 +17,10 @@ export const siteFromEmail = process.env.NEXT_PUBLIC_SITE_FROM_EMAIL;
 export const siteName = "Shantira Realty";
 export const siteLogo = '/public/Logo.png'
 export const copyright = `© ${new Date().getFullYear()} Shantira Realty.`;
+
+
+
+export const truncate = (text, maxLength = 70) => {
+  if (!text) return "";
+  return text.length > maxLength ? text.slice(0, maxLength) + "..." : text;
+};
