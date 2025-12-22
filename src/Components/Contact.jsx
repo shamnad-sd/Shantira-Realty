@@ -10,7 +10,7 @@ import {
 import { siteEmail, siteName } from "@/utils/variable";
 import toast from "react-hot-toast";
 import Loader from "./UI/Loader";
-import LocationInsights from "./LocationInsights";
+
 
 const ContactPage = () => {
   const [fullName, setFullName] = useState("");
@@ -192,8 +192,8 @@ const ContactPage = () => {
           </div>
         </div>
       </section>
-      <section className="bg-[#2A6F7E] lg:py-16 pb-12 px-4 md:px-10">
-            <div className="max-w-5xl mx-auto text-white">
+      <section className="bg-[#2A6F7E] md:py-16 px-4 md:px-15 py-10">
+            <div className=" mx-auto text-white">
                 {/* Location heading */}
                 <h2 className="text-center mb-3 apollo-heading text-white text-[28px]">Location</h2>
 

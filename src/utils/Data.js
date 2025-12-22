@@ -498,16 +498,16 @@ export const blogs = [
     title:
       "For NRIs, buying a luxury home in Kerala is about more than comfort — it’s about belonging. Cochin has emerged as the natural choice for NRIs returning home. The city offers international-grade infrastructure, proximity to the airport, excellent schools, and a cosmopolitan culture that feels familiar. Projects like Sobha Marina One offer exactly what overseas buyers look for — high-end amenities, world-class security, and professional property management. Plus, being RERA-approved ensures complete transparency and trust. It’s where global quality meets local warmth — where your Kerala roots and modern lifestyle blend perfectly. At Shantira Realty, we understand the NRI mindset — trust, convenience, and legacy. Let’s make your homecoming a luxurious one. ",
     image: "/blogImg/BLOG1.png",
-    date_time: "20-12-2025 04:02 PM"
+    date_time: "20-12-2025 04:02 PM",
   },
-   {
+  {
     id: 2,
     slug: "top-5-prime-locations-in-cochin-for-luxury-apartments",
     category: "Top 5 Prime Locations in Cochin for Luxury Apartments",
     title:
       "When it comes to luxury living, location is everything — and Cochin offers some of the most desirable addresses in South India. Here are our top five picks: Marine Drive — The heart of Cochin’s premium life, home to Sobha Marina One. Panampilly Nagar — Elegant and peaceful, perfect for families who love city convenience. Kakkanad — The IT hub of Cochin, modern and fast-growing. Edappally — A dynamic blend of shopping and connectivity. Thevara — Calm, green, and residential. Among these, Marine Drive remains the crown jewel — a location that commands respect, ensures appreciation, and delivers unmatched lifestyle value. At Shantira Realty, we specialize in helping you find homes that fit your aspirations — whether it’s an urban apartment or a serene waterfront retreat.",
     image: "/blogImg/BLOG2.png",
-    date_time: "22-12-2025 11:45 AM"
+    date_time: "22-12-2025 11:45 AM",
   },
   {
     id: 3,
@@ -516,23 +516,70 @@ export const blogs = [
     title:
       "For many, buying a home in Cochin is emotional — a way of reconnecting with roots. But for smart investors, it’s also one of the most rewarding decisions they can make. Cochin’s luxury segment has seen consistent growth thanks to its robust infrastructure, expanding IT sector, and stable demand from NRIs. Unlike speculative markets, Cochin offers genuine end-user value and long-term appreciation. Projects like Sobha Marina One at Marine Drive are redefining investment benchmarks. Backed by reputed developers and RERA approvals, it’s not just a luxury address — it’s an asset that grows in worth and prestige over time. Whether you’re buying for yourself or as an investment, Cochin offers the perfect blend of emotional satisfaction and financial sense. With Shantira Realty, you don’t just buy a property — you make an informed, strategic move toward a better future.",
     image: "/blogImg/BLOG3.png",
-    date_time: "22-12-2025 12:10 PM"
+    date_time: "22-12-2025 12:10 PM",
   },
   {
     id: 4,
-    slug: 'cochin-keralas-new-face-of-luxury-living',
+    slug: "cochin-keralas-new-face-of-luxury-living",
     category: "Cochin — Kerala’s New Face of Luxury Living",
-    title: "Cochin is no longer just a port city. It’s Kerala’s rising face of luxury living — where the skyline meets the backwaters, and tradition blends seamlessly with modern comfort. Over the last decade, Cochin has evolved into a real estate powerhouse. Its infrastructure growth, cultural diversity, and premium lifestyle options have made it a preferred destination for NRIs, business leaders, and modern professionals. Areas like Marine Drive, Panampilly Nagar, Kakkanad, and Edappally have transformed into hubs of refined living. Among them, Marine Drive stands apart — offering waterfront serenity and proximity to every major landmark in the city. Developers like Sobha are leading this transformation with ultra-luxury projects such as Sobha Marina One, one of Kerala’s largest and most exclusive waterfront communities. With 16.7 acres of prime land and views that stretch across the backwaters, it defines a new standard for high-end living. Cochin is no longer just a great place to live — it’s a statement of lifestyle and investment. Shantira Realty is proud to bring you closer to this transformation.",
+    title:
+      "Cochin is no longer just a port city. It’s Kerala’s rising face of luxury living — where the skyline meets the backwaters, and tradition blends seamlessly with modern comfort. Over the last decade, Cochin has evolved into a real estate powerhouse. Its infrastructure growth, cultural diversity, and premium lifestyle options have made it a preferred destination for NRIs, business leaders, and modern professionals. Areas like Marine Drive, Panampilly Nagar, Kakkanad, and Edappally have transformed into hubs of refined living. Among them, Marine Drive stands apart — offering waterfront serenity and proximity to every major landmark in the city. Developers like Sobha are leading this transformation with ultra-luxury projects such as Sobha Marina One, one of Kerala’s largest and most exclusive waterfront communities. With 16.7 acres of prime land and views that stretch across the backwaters, it defines a new standard for high-end living. Cochin is no longer just a great place to live — it’s a statement of lifestyle and investment. Shantira Realty is proud to bring you closer to this transformation.",
     image: "/blogImg/blog4.jpg",
-    date_time: "22-12-2025 12:36 PM"
+    date_time: "22-12-2025 12:36 PM",
   },
   {
     id: 5,
-    slug: 'what-makes-a-flat-truly-luxury-in-cochin',
+    slug: "what-makes-a-flat-truly-luxury-in-cochin",
     category: "What Makes a Flat Truly “Luxury” in Cochin",
-    title: "Luxury is not defined by imported marble or branded taps. It’s defined by how a space makes you feel — calm, connected, and comfortable. A truly luxurious flat in Cochin focuses on four essentials: space, privacy, view, and craftsmanship. These are not visible at first glance, but you feel them every day you live there. Projects like Sobha Marina One at Marine Drive bring all these elements together. Every apartment is thoughtfully planned — large windows for natural light, premium finishes, and an uninterrupted view of the water. It’s not about excess; it’s about excellence. Sobha’s attention to design detail, quality construction, and timeless architecture make their homes stand apart. At Shantira Realty, we help you find homes that reflect more than status — homes that reflect peace and perfection. Because luxury isn’t just what you see, it’s what you experience.",
+    title:
+      "Luxury is not defined by imported marble or branded taps. It’s defined by how a space makes you feel — calm, connected, and comfortable. A truly luxurious flat in Cochin focuses on four essentials: space, privacy, view, and craftsmanship. These are not visible at first glance, but you feel them every day you live there. Projects like Sobha Marina One at Marine Drive bring all these elements together. Every apartment is thoughtfully planned — large windows for natural light, premium finishes, and an uninterrupted view of the water. It’s not about excess; it’s about excellence. Sobha’s attention to design detail, quality construction, and timeless architecture make their homes stand apart. At Shantira Realty, we help you find homes that reflect more than status — homes that reflect peace and perfection. Because luxury isn’t just what you see, it’s what you experience.",
     image: "/blogImg/blog7.jpg",
-    date_time: "22-12-2025 12:46 PM"
+    date_time: "22-12-2025 12:46 PM",
+  },
+  {
+    id: 6,
+    slug: "your-luxury-apartment-checklist-for-cochin",
+    category: "Your Luxury Apartment Checklist for Cochin",
+    title:
+      "Choosing the right luxury apartment can be overwhelming — but it doesn’t have to be. Here’s a simple checklist before you finalize: Location — Choose central, accessible areas like Marine Drive or Panampilly Nagar. Builder Reputation — Look for names like Sobha and Puravankara. RERA Approval — Always ensure the project is compliant. Design & Layout — Prioritize ventilation, privacy, and view. Amenities — Seek a balance between luxury and practicality. Investment Value — Think long-term appreciation and rental demand. A property like Sobha Marina One checks every box effortlessly — from craftsmanship to connectivity. At Shantira Realty, we don’t just sell homes. We simplify luxury buying with expertise and clarity — ensuring your investment stands the test of time.",
+    image: "/blogImg/blog7.jpg",
+    date_time: "22-12-2025 5:46 PM",
+  },
+  {
+    id: 7,
+    slug: "your-luxury-apartment-checklist-for-cochin",
+    category: "How Lifestyle Has Redefined Luxury Homes in Kerala",
+    title:
+      "Luxury homes in Kerala are no longer about chandeliers and imported flooring — they’re about balance, wellness, and smarter living. Today’s luxury buyer seeks serenity, not show. They want green spaces, fitness zones, natural ventilation, and community living. Sobha Marina One embodies this new philosophy. With open-air decks, landscaped gardens, and panoramic views of the backwaters, it offers a lifestyle that nourishes the soul. Luxury has shifted from being material to being mindful. It’s about how your space supports your peace of mind. At Shantira Realty, we believe true luxury lies in thoughtful design and timeless comfort — where every day feels like a retreat.",
+    image: "/blogImg/blog7.jpg",
+    date_time: "22-12-2025 5:48 PM",
+  },
+  {
+    id: 8,
+    slug: "size-isnt-luxury-lifestyle-is",
+    category: "Size Isn’t Luxury — Lifestyle Is",
+    title:
+      "The modern buyer knows — bigger doesn’t always mean better. A truly luxurious home is one that feels calm, balanced, and intelligently designed. At Sobha Marina One, luxury is redefined through smart architecture — maximizing space, light, and functionality while keeping an intimate sense of privacy. It’s not just the number of square feet that matters; it’s the feeling you get when you walk in — of peace, air, and light. At Shantira Realty, we guide our clients to look beyond the size chart. Because real luxury is about comfort, quality, and the life you live inside your home.",
+    image: "/blogImg/blog7.jpg",
+    date_time: "22-12-2025 5:49 PM",
+  },
+  {
+    id: 9,
+    slug: "buying-a-flat-in-cochin-faqs-simplified",
+    category: "Buying a Flat in Cochin — FAQs Simplified",
+    title:
+      "Is now the right time to buy? Yes. Cochin’s real estate market is stable and growing, especially for luxury properties. How much GST applies? 5% for under-construction; none for ready-to-move apartments. What’s the registration cost? Around 8% (stamp duty + registration). Can NRIs buy property? Absolutely. It’s straightforward through Indian banking channels under FEMA. Which projects are most trusted? Sobha Marina One leads the list — RERA-approved, premium, and centrally located at Marine Drive. With Shantira Realty, you don’t just find a property — you find confidence.",
+    image: "/blogImg/blog7.jpg",
+    date_time: "22-12-2025 5:50 PM",
+  },
+  {
+    id: 10,
+    slug: "inside-sobha-marina-one-cochins-waterfront-landmark",
+    category: "Inside Sobha Marina One — Cochin’s Waterfront Landmark",
+    title:
+      "Welcome to Sobha Marina One — Cochin’s most iconic luxury address on Marine Drive. Spread across 16.7 acres, this joint venture between Sobha Ltd. and Puravankara Ltd. brings together unmatched craftsmanship, panoramic views, and architectural elegance. With 12 towers and over 1,000 ultra-premium apartments, each home offers breathtaking backwater views, state-of-the-art amenities, and Sobha’s signature quality. From landscaped gardens to sky lounges, wellness zones to infinity pools — every detail is designed for refined living. This isn’t just a project. It’s a symbol of Cochin’s evolution — a lifestyle destination for those who believe luxury is a daily experience. Shantira Realty is proud to be an official channel partner for Sobha Marina One, connecting you to Kerala’s most prestigious waterfront community.",
+    image: "/blogImg/blog7.jpg",
+    date_time: "22-12-2025 5:55 PM",
   },
 ];
 
