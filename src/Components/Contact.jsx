@@ -1,22 +1,3 @@
-// import React from 'react'
-// import PagesBanner from './UI/PagesBanner'
-
-// const Contact = () => {
-//   return (
-//     <div>
-//        <PagesBanner
-//                 bannerImg={"/blogImg/blog5.jpg"}
-//                 bannerTitle={"Contact Us"}
-//             />
-//     </div>
-//   )
-// }
-
-// export default Contact
-
-
-
-// // app/contact/page.jsx (or page.js)
 "use client";
 
 import React, { useState } from "react";
@@ -211,7 +192,7 @@ const ContactPage = () => {
           </div>
         </div>
       </section>
-      <section className="bg-[#2A6F7E] py-10 px-4 md:px-10">
+      <section className="bg-[#2A6F7E] lg:py-16 pb-12 px-4 md:px-10">
             <div className="max-w-5xl mx-auto text-white">
                 {/* Location heading */}
                 <h2 className="text-center mb-3 apollo-heading text-white text-[28px]">Location</h2>

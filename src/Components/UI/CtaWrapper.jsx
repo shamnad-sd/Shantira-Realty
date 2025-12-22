@@ -6,8 +6,10 @@ import CtaForm from "@/Components/UI/CtaForm";
 const CtaWrapper = () => {
   const pathname = usePathname();
 
-  // hide CTA on contact page
-  if (pathname === "/contact") return null;
+  if (pathname === "/contact"
+    || pathname === "/terms-conditions"
+    || pathname === "/privacy-policy"
+  ) return null;
 
   return <CtaForm />;
 };
