@@ -66,8 +66,8 @@ const ContactPage = () => {
             />
 
       {/* Contact section */}
-      <section className="bg-[#2A6F7E] py-12 md:py-16 px-4 md:px-15">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+      <section className="bg-[#2A6F7E] md:py-16 px-4 md:px-15 py-10">
+        <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
           {/* Left: contact info */}
           <div className="text-white space-y-5">
             <h2 className="apollo-heading text-2xl md:text-[28px] mb-2">
