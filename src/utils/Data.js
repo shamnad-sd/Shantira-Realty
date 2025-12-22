@@ -502,20 +502,21 @@ export const blogs = [
   },
    {
     id: 2,
-    slug: "key-factors-nris-should-consider-before-investing-in-luxury-flats-in-cochin",
-    category: "Key Factors NRIs Should Consider Before Investing in Luxury Flats in Cochin",
+    slug: "top-5-prime-locations-in-cochin-for-luxury-apartments",
+    category: "Top 5 Prime Locations in Cochin for Luxury Apartments",
     title:
-      "Investment potential and future growth make Cochin a smart choice. With continuous infrastructure development, metro expansion, and increasing demand for premium housing, luxury flats in Cochin promise steady appreciation and rental income.At Shantira Realty, we simplify the property-buying journey for NRIs by offering expert guidance, transparent processes, and personalized support at every step. Whether you’re investing for returns or planning your dream home in Kerala, Cochin’s luxury real estate market offers the perfect balance of comfort, value, and legacy.Lifestyle amenities and maintenance should not be overlooked. Gated communities with modern facilities like fitness centers, swimming pools, landscaped gardens, and professional property management offer peace of mind for NRIs who may not reside in India year-round.",
-    image: "/blogImg/blog2.jpg",
-    date_time: "20-12-2025 04:23 PM"
+      "When it comes to luxury living, location is everything — and Cochin offers some of the most desirable addresses in South India. Here are our top five picks: Marine Drive — The heart of Cochin’s premium life, home to Sobha Marina One. Panampilly Nagar — Elegant and peaceful, perfect for families who love city convenience. Kakkanad — The IT hub of Cochin, modern and fast-growing. Edappally — A dynamic blend of shopping and connectivity. Thevara — Calm, green, and residential. Among these, Marine Drive remains the crown jewel — a location that commands respect, ensures appreciation, and delivers unmatched lifestyle value. At Shantira Realty, we specialize in helping you find homes that fit your aspirations — whether it’s an urban apartment or a serene waterfront retreat.",
+    image: "/blogImg/BLOG2.png",
+    date_time: "22-12-2025 11:45 AM"
   },
   {
     id: 3,
-    slug: 'how-luxury-flats-in-cochin-offer-high-returns-and-peace-of-mind-for-nris',
-    category: "How Luxury Flats in Cochin Offer High Returns and Peace of Mind for NRIs",
-    title: "For NRIs, property investment is not just about owning a home in Kerala—it’s about long-term security, stable returns, and peace of mind while living abroad. Cochin has steadily positioned itself as one of the most reliable cities for luxury real estate investment, offering both emotional value and strong financial benefits.One of the biggest advantages of investing in luxury flats in Cochin is consistent property appreciation. With rapid urban development, metro connectivity, IT parks, and infrastructure growth, premium residential locations continue to see rising demand. This makes luxury apartments a safe and rewarding asset for long-term investors.Rental income potential is another key benefit. Luxury flats located near business hubs, waterfronts, and city centers attract high-paying tenants, including corporate professionals and returning NRIs. This ensures steady rental yields even when owners are not physically present in India.For NRIs, security and hassle-free maintenance are critical. Modern luxury apartments offer 24/7 security, CCTV surveillance, power backup, and professional property management services. These features eliminate daily maintenance worries and allow owners to manage their property effortlessly from overseas.Transparency and legal safety further add to peace of mind. RERA-approved projects and reputed developers ensure clear documentation, timely delivery, and adherence to quality standards—essential factors for NRIs investing from abroad.At Shantira Realty, we focus on delivering more than just properties—we provide confidence, clarity, and complete support to NRI buyers. From project selection to legal assistance and post-purchase support, we ensure your investment journey in Cochin is smooth, secure, and truly rewarding.",
-    image: "/blogImg/blog3.jpg",
-    date_time: "20-12-2025 04:26 PM"
+    slug: "investing-in-cochins-luxury-apartments-smart-or-sentimental",
+    category: "Investing in Cochin’s Luxury Apartments — Smart or Sentimental?",
+    title:
+      "For many, buying a home in Cochin is emotional — a way of reconnecting with roots. But for smart investors, it’s also one of the most rewarding decisions they can make. Cochin’s luxury segment has seen consistent growth thanks to its robust infrastructure, expanding IT sector, and stable demand from NRIs. Unlike speculative markets, Cochin offers genuine end-user value and long-term appreciation. Projects like Sobha Marina One at Marine Drive are redefining investment benchmarks. Backed by reputed developers and RERA approvals, it’s not just a luxury address — it’s an asset that grows in worth and prestige over time. Whether you’re buying for yourself or as an investment, Cochin offers the perfect blend of emotional satisfaction and financial sense. With Shantira Realty, you don’t just buy a property — you make an informed, strategic move toward a better future.",
+    image: "/blogImg/BLOG3.png",
+    date_time: "22-12-2025 12:10 PM"
   },
   {
     id: 4,
