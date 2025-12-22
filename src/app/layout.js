@@ -5,6 +5,7 @@ import Footer from "@/Components/UI/Footer";
 import CtaForm from "@/Components/UI/CtaForm";
 import { Toaster } from "react-hot-toast";
 import NextTopLoader from "nextjs-toploader";
+import CtaWrapper from "@/Components/UI/CtaWrapper";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -82,7 +83,8 @@ export default function RootLayout({ children }) {
           }}
         />
         {children}
-        <CtaForm />
+        {/* <CtaForm /> */}
+        <CtaWrapper/>
         <Footer />
       </body>
     </html>
