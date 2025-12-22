@@ -19,7 +19,7 @@ export async function generateMetadata() {
   description:
     "Read expert insights, market updates, and home-buying guides from Shantira Realty to stay informed about Kerala’s real estate trends.",
   keywords:
-    "Shantira Realty blog, real estate insights, property tips, Kerala real estate news, home buying guides",
+  "Shantira Realty blog, Kerala real estate blog, Kerala property market insights, Kochi real estate tips, Kochi property trends, real estate investment Kerala, home buying guides Kerala, first-time homebuyer tips, property investment tips, Kerala property news, villa buying guide Kerala, flats for sale advice, real estate legal tips Kerala, NRI property investment Kerala, resale apartment tips, Kerala land buying guide",
   ogTitle: "Blogs & Insights - Shantira Realty",
   ogDescription:
     "Explore articles from Shantira Realty covering property trends, investment tips, and guidance for homebuyers and investors.",
