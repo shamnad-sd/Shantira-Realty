@@ -1,4 +1,4 @@
-import { navItems, projects } from "@/utils/Data";
+import { blogs, navItems, projects } from "@/utils/Data";
 import { frontendUrl } from "@/utils/urls";
 
 export default async function sitemap() {
@@ -18,5 +18,12 @@ export default async function sitemap() {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...projectPages];
+  const blogPages = blogs.map((blog) => ({
+    url: `${frontendUrl}/blog/${blog.slug}`,
+    lastModified: new Date().toISOString(),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...projectPages, ...blogPages];
 }
