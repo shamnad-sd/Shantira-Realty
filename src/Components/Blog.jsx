@@ -14,7 +14,7 @@ const Blog = () => {
             <section className="bg-[#2A6F7E] md:py-16 px-4 md:px-15 py-10">
                 <div className=" mx-auto">
                     <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
-                        {blogs.map((blog) => (
+                        {blogs.map((blog,key) => (
                             <BlogCard
                                 key={blog.id}
                                 slug={blog.slug}

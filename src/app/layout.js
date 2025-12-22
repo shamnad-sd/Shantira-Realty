@@ -21,10 +21,6 @@ const archivo = Archivo({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: "Shantira Realty - Building Trust",
-  description: "Your trusted real estate partner for meaningful living",
-};
 
 export default function RootLayout({ children }) {
   return (
