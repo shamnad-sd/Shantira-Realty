@@ -73,7 +73,7 @@ const ContactPage = () => {
             <h2 className="apollo-heading text-2xl md:text-[28px] mb-2">
               Get in Touch
             </h2>
-            <p className="font-extralight text-[15px] leading-relaxed max-w-md">
+            <p className="font-extralight text-[15px] leading-relaxed max-w-xl">
               Reach out to Shantira Realty for project enquiries, site visits,
               or personalised guidance on finding your next home in Kerala.
             </p>
