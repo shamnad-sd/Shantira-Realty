@@ -12,11 +12,11 @@ export function generateMetadata(seoData, nofollow, path) {
     title: seoData?.title || 'Shantira Realty',
     description: seoData?.description || 'Shantira Realty',
     keywords: seoData?.keywords || '',
-    metadataBase: new URL(frontendUrl),
+    // metadataBase: new URL(frontendUrl),
     icons: {
       icon: [
-        // { url: '/Logo.png', sizes: '16x16', type: 'image/png' },
-        // { url: '/Logo.png', sizes: '32x32', type: 'image/png' },
+        { url: '/favicon.ico', sizes: '16x16', type: 'image/x-icon' },
+        { url: '/favicon.ico', sizes: '32x32', type: 'image/png' },
       ],
       apple: [
         { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
