@@ -42,8 +42,8 @@ export function generateMetadata(seoData, nofollow, path) {
       images: seoData?.images || [
         {
           url: 'https://www.shantirarealty.com/og-image.png',
-          width: 479,
-          height: 482,
+          width: 1200,
+          height: 630,
           type: 'image/png',
           alt: 'Shantira Realty',
         },
