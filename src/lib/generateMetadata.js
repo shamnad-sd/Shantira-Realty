@@ -39,11 +39,11 @@ export function generateMetadata(seoData, nofollow, path) {
       locale: seoData?.locale || 'en_US',
       type: seoData?.type || 'website',
       modifiedTime: seoData?.modifiedTime || '',
-      images: seoData?.images || [
+      images: [
         {
-          url: 'https://www.shantirarealty.com/og-image.png',
-          width: 1200,
-          height: 630,
+          url: 'https://www.shantirarealty.com/logo-new.png',
+          width: 479,
+          height: 482,
           type: 'image/png',
           alt: 'Shantira Realty',
         },
@@ -53,7 +53,7 @@ export function generateMetadata(seoData, nofollow, path) {
       card: seoData?.twitterCard || 'summary_large_image',
       title: seoData?.twitterTitle || seoData?.title || 'Shantira Realty',
       description: seoData?.twitterDescription || seoData?.description || 'Shantira Realty',
-      images: seoData?.twitterImages || ['https://www.shantirarealty.com/og-image.png'],
+      images:  ['https://www.shantirarealty.com/logo-new.png'],
     },
   };
 }
