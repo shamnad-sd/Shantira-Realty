@@ -12,7 +12,7 @@ export function generateMetadata(seoData, nofollow, path) {
     title: seoData?.title || 'Shantira Realty',
     description: seoData?.description || 'Shantira Realty',
     keywords: seoData?.keywords || '',
-    // metadataBase: new URL(frontendUrl),
+    metadataBase: new URL(frontendUrl),
     icons: {
       icon: [
     // { url: '/favicon.ico' }, // Google reads this
