@@ -41,7 +41,7 @@ export function generateMetadata(seoData, nofollow, path) {
       modifiedTime: seoData?.modifiedTime || '',
       images: [
         {
-          url: 'https://www.shantirarealty.com/logo-gn.png',
+          url: 'https://www.shantirarealty.com/logo-newone.png',
           width: 512,
           height: 512,
           type: 'image/png',
@@ -53,7 +53,7 @@ export function generateMetadata(seoData, nofollow, path) {
       card: seoData?.twitterCard || 'summary_large_image',
       title: seoData?.twitterTitle || seoData?.title || 'Shantira Realty',
       description: seoData?.twitterDescription || seoData?.description || 'Shantira Realty',
-      images:  ['https://www.shantirarealty.com/logo-gn.png'],
+      images:  ['https://www.shantirarealty.com/logo-newone.png'],
     },
   };
 }
