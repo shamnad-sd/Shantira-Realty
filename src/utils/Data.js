@@ -584,18 +584,16 @@ export const blogs = [
   {
   id: 11,
   slug: "apartment-vs-villa-in-kerala-pros-cons-guide",
-  category: "Apartment vs Villa in Kerala",
+  category: "Apartment vs Villa in Kerala: Pros, Cons, and How to Decide What Truly Fits Your Lifestyle",
   title: `
 
-    Apartment vs Villa in Kerala: Pros, Cons, and How to Decide What Truly Fits Your Lifestyle
-
-    <p>
+    
       Buying a home in Kerala today is no longer a simple choice between price and location. With
 evolving lifestyles, changing family structures, and rising land values, homebuyers are
 increasingly torn between apartments and villas. Both options offer distinct benefits—and
 come with their own challenges. The right decision depends not on market trends alone, but on
 how you intend to live, invest, and plan for the future.
-    </p>
+  
 
     <p>
       Whether you are a first-time buyer, an NRI looking to invest back home, or a family planning
