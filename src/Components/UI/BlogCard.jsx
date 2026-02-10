@@ -12,6 +12,14 @@ const BlogCard = ({
     blogDescription
 
 }) => {
+
+    const stripHtml = (html) => {
+  if (typeof document === "undefined") return html;
+  const div = document.createElement("div");
+  div.innerHTML = html;
+  return div.textContent || div.innerText || "";
+};
+
     return (
         <Link
             key={key}
@@ -33,9 +41,10 @@ const BlogCard = ({
                 </span>
 
                 {/* short title */}
-                <p className="text-[#323232] font-medium leading-relaxed">
-                    {truncate(blogDescription, 70)}
-                </p>
+               <p className="text-[#323232] font-medium leading-relaxed">
+  {truncate(stripHtml(blogDescription), 70)}
+</p>
+
             </div>
         </Link>
     )

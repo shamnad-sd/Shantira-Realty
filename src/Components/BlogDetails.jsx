@@ -6,7 +6,7 @@ const BlogDetails = ({ blog }) => {
   return (
     <div>
       <PagesBanner
-        bannerImg={'/blogImg/blog7.jpg'}
+        bannerImg={blog.image}
         bannerTitle={blog.category}
       />
       <main className="bg-[#2A6F7E] min-h-screen py-16 px-4 md:px-10">
@@ -35,9 +35,14 @@ const BlogDetails = ({ blog }) => {
 
           {/* Content */}
           <article className="bg-white/5 rounded-3xl px-6 md:px-10 py-8 md:py-10 text-[15px] leading-relaxed font-extralight">
-            <p className="whitespace-pre-line">
+            {/* <p className="whitespace-pre-line">
               {blog.title}
-            </p>
+            </p> */}
+            <div
+  className="blog-content"
+  dangerouslySetInnerHTML={{ __html: blog.title }}
+/>
+
           </article>
         </div>
       </main>

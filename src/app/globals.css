@@ -34,3 +34,35 @@ color: #CFA77F;
 .section-color{
   background-color: #183F47;
 }
+
+
+
+/* blog content styling */
+
+.blog-content h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.blog-content h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.blog-content ul {
+  padding-left: 1.5rem;
+  list-style: disc;
+}
+
+.blog-content li {
+  margin-bottom: 0.5rem;
+}
+.blog-content .points-heading {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
