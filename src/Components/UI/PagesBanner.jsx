@@ -17,7 +17,7 @@ const PagesBanner = ({ bannerImg, bannerTitle }) => {
 
       {/* Title */}
       <div className="relative z-10 h-full flex items-center justify-center px-6">
-        <h1 className="text-white apollo-heading text-4xl md:text-[48px] text-center">
+        <h1 className="text-white apollo-heading text-3xl md:text-[48px] text-center">
           <span className="bg-black/50 px-5 py-2 rounded-md shadow-lg">
             {bannerTitle}
           </span>
