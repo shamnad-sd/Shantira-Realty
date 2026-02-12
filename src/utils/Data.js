@@ -794,12 +794,12 @@ evaluate not just the property, but the life you want to build around it.
   slug: "what-no-one-tells-you-about-living-in-gated-communities-in-kerala",
   category: "What No One Tells You About Living in Gated Communities in Kerala",
   title: `
-    <p>
+   
       Gated communities have become one of the fastest-growing residential formats in Kerala over
       the past decade. From premium apartment complexes in Kochi and Trivandrum to villa
       communities on the outskirts of growing towns, developers often position gated living as the
       ideal blend of comfort, security, and lifestyle.
-    </p>
+    
 
     <p>
       Brochures highlight landscaped gardens, clubhouses, security systems, and a close-knit
