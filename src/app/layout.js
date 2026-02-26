@@ -6,6 +6,7 @@ import CtaForm from "@/Components/UI/CtaForm";
 import { Toaster } from "react-hot-toast";
 import NextTopLoader from "nextjs-toploader";
 import CtaWrapper from "@/Components/UI/CtaWrapper";
+import Script from 'next/script'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -83,6 +84,18 @@ export default function RootLayout({ children }) {
           }}
         />
         {children}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-FDRFWZ6Q78"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-FDRFWZ6Q78');
+          `}
+        </Script>
         <CtaWrapper/>
         <Footer />
       </body>
