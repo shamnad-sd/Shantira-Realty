@@ -85,7 +85,7 @@ const ContactPage = () => {
                 </p>
                 <p className="text-[15px] mt-1">
                   <a href="tel:+9112345678900" className="hover:underline">
-                    +91 12345 678900
+                    +91 62820 91189
                   </a>
                 </p>
               </div>
@@ -109,7 +109,7 @@ const ContactPage = () => {
                   Address
                 </p>
                 <p className="text-[15px] mt-1 font-extralight max-w-sm">
-                  Shantira Realty, Kochi, Kerala – 6820XX, India
+                  B402, Purva Eternity, Kakkanad Pallikara Rd, Athani, Kakkanad, Kochi, Kerala 682030
                 </p>
               </div>
             </div>
